@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    text-decoration: solid;
+    color: white;  
+}
+span:hover {
+    border-left: 1px;
+    border-right: 1px;
+    transform: translateY(10px);
+    transition: 0.5s linear;
+    background-image: linear-gradient(white, red);
+    border-radius: 50000px;
+}
+h2 {
+    text-decoration: underline;
+    color: black;  
+}
+
+h2:hover {
+    opacity: 0;
+    transition: 30s linear;
+}
+
+footer {
+    background-color: brown;
+}
+
+html {
+    background-color: lightblue;
+}
+
+span {
+    background-color: black;
+}
+
+h3 {
+    color: purple;
+}
+
+h3:hover {
+    background-color: red;
+}
